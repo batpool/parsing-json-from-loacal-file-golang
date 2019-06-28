@@ -11,8 +11,8 @@ import (
 func IndexHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Server", "GO BAT 🦇🦇🦇🦇🦇🦇🦇")
 	w.Header().Set("Content-Type", "application/json")
-	mm, _ := json.Marshal(utility.ReadJson("database/data.json"))
-	fmt.Fprint(w, string(mm))
+	data, _ := json.Marshal(utility.ReadJson("database/data.json"))
+	fmt.Fprint(w, string(data))
 }
 
 func main() {
