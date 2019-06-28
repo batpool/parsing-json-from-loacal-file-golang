@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Satyabrata",
+      "type": "Admin",
+      "age": 25,
+      "social": {
+        "facebook": "https://www.facebook.com/thedeadloop",
+        "instagram": [
+          "https://www.instagram.com/thedeadloop/",
+          "https://www.instagram.com/thedeadloop/"
+        ]
+      }
+    },
+    {
+      "name": "Mr. B4TMAN",
+      "type": "Author",
+      "age": 27,
+      "social": {
+        "facebook": "https://facebook.com",
+        "instagram": [
+          "https://www.instagram.com/thedeadloop/",
+          "https://www.instagram.com/thedeadloop/"
+        ]
+      }
+    }
+  ]
+}
